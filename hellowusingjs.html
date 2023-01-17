@@ -1,0 +1,12 @@
+\*First Hello World program using JS to manipulate the DOM.*/
+<html>
+<body>
+    <div id="root"></div>
+</body>
+<script>
+    const heading=document.createElement("h1");
+    heading.innerHTML="Hello World";
+    const root=document.getElementById("root");
+    root.appendChild(heading);
+    </script>
+</html>
